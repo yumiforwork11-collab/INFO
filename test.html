@@ -74,12 +74,6 @@
 
             <div class="flex items-center gap-2">
 
-                <a href="#about"
-                   class="hidden sm:block px-4 py-2 rounded-full
-                          text-sm font-bold text-slate-600
-                          hover:bg-pink-50">
-                    關於 Yumi
-                </a>
 
                 <a href="https://docs.google.com/forms/d/1Q9Yh_xKcmTl0jbUSSBw7AYIPpgR0MaieCz23dSqzC7w/edit?ts=69f9c1b4"
                    class="px-3 sm:px-4 py-2 rounded-full
@@ -179,16 +173,6 @@
                         🚀 進入秘密基地
                     </a>
 
-                    <a href="#about"
-                       class="border border-white/50
-                              bg-white/10
-                              px-6 py-3 rounded-full
-                              font-bold
-                              bouncy transition">
-
-                        了解 Yumi →
-                    </a>
-
                 </div>
 
             </div>
@@ -219,58 +203,6 @@
 
 
 
-    <!-- ================= ABOUT ================= -->
- <!--
-    <section id="about"
-             class="mt-6 grid md:grid-cols-[1fr_1.4fr]
-                    gap-4">
-
-        <div class="bg-white rounded-[2rem]
-                    p-6 border border-pink-100
-                    soft-shadow">
-
-            <div class="text-4xl mb-3">
-                💗
-            </div>
-
-            <h2 class="text-xl font-extrabold text-rose-600">
-                About Yumi
-            </h2>
-
-            <p class="text-sm text-slate-500 mt-2">
-                兒童英文學習陪伴者
-            </p>
-
-        </div>
-
-
-        <div class="bg-white rounded-[2rem]
-                    p-6 border border-pink-100
-                    soft-shadow">
-
-            <p class="text-sm md:text-base
-                      leading-relaxed text-slate-600">
-
-                我會從孩子的
-                <strong class="text-rose-500">
-                    年齡、程度、個性與上課反應
-                </strong>
-                出發，找出比較適合孩子的學習方式。
-
-                <br><br>
-
-                比起一直追求「背了多少單字」，
-                我更希望孩子願意聽、願意模仿，
-                最後慢慢敢開口說英文。
-
-            </p>
-
-        </div>
-
-    </section>
-
-
--->
 
     <!-- ================= HUB + LEARNING PARKS (整合在一起的大外框) ================= -->
 
@@ -407,56 +339,79 @@
 
 
 
-    <!-- ================= CTA ================= -->
+    <!-- ================= CTA (限時加碼版) ================= -->
 
-    <section class="mt-10
-                    bg-white
-                    rounded-[2rem]
-                    border border-indigo-100
-                    p-7 md:p-9
-                    text-center
-                    soft-shadow">
+    <section class="mt-10 bg-white rounded-[2rem] border-2 border-rose-200 p-6 md:p-9 text-center soft-shadow relative overflow-hidden">
 
-        <div class="text-4xl">
-            💌
+        <!-- 背景微光效果 -->
+        <div class="absolute -top-12 -right-12 w-36 h-36 bg-rose-100/50 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="absolute -bottom-12 -left-12 w-36 h-36 bg-amber-100/50 rounded-full blur-2xl pointer-events-none"></div>
+
+        <!-- 頂部動態標籤 -->
+        <div class="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-rose-500 text-white text-xs font-black px-4 py-1.5 rounded-full shadow-sm mb-3">
+            🔥 限時加碼狂歡慶
         </div>
 
-        <h2 class="text-2xl
-                   font-extrabold
-                   text-indigo-800 mt-2">
-
-            想讓身邊的孩子認識 Yumi？
-
+        <h2 class="text-2xl md:text-3xl font-extrabold text-slate-800">
+            推薦好友一起學・課程堂數加碼送！
         </h2>
 
-        <p class="text-sm text-slate-500
-                  mt-2 max-w-md mx-auto
-                  leading-relaxed">
-
-            如果身邊也有正在找英文學習方式的朋友，
-            歡迎把 Yumi 老師分享給他們 😊
-
+        <p class="text-sm text-slate-500 mt-2 max-w-lg mx-auto leading-relaxed">
+            獨樂樂不如眾樂樂！把 Yumi 老師推薦給身邊的朋友，好康回饋直接加倍領取 💕
         </p>
 
+        <!-- 限時優惠卡片盒 -->
+        <div class="mt-6 bg-gradient-to-br from-rose-50/90 via-orange-50/40 to-amber-50/90 border border-rose-200/80 rounded-2xl p-5 md:p-7 text-left max-w-2xl mx-auto shadow-sm relative">
 
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4 border-b border-rose-100 pb-3">
+                <span class="inline-flex items-center gap-1 text-xs font-extrabold text-rose-600 bg-white/90 px-3 py-1 rounded-full border border-rose-200">
+                    ⏳ OiKID 年終限定優惠
+                </span>
+                <span class="text-xs font-bold text-slate-500">
+                    倒數時間：<strong class="text-rose-500">2026/10/01 - 2026/12/31</strong>
+                </span>
+            </div>
+
+            <!-- 活動核心 Highlight -->
+            <p class="text-base md:text-lg font-extrabold text-slate-800 mb-4 leading-snug">
+                🎁 揪友限時回饋：雙方最高共拿 <span class="bg-rose-500 text-white px-2.5 py-0.5 rounded-md shadow-xs">12 堂</span> 精品課程！
+            </p>
+
+            <div class="space-y-3 text-sm">
+                <!-- 試聽獎勵 -->
+                <div class="flex items-start gap-3 bg-white/90 p-3.5 rounded-xl border border-rose-100/80 shadow-2xs">
+                    <span class="text-xl shrink-0">🚀</span>
+                    <div class="leading-relaxed">
+                        <span class="font-bold text-slate-800">好友完成試聽：</span><br class="sm:hidden">
+                        推薦人獨享 <span class="text-rose-600 font-extrabold text-base">贈 2 堂</span> 精品課程
+                    </div>
+                </div>
+
+                <!-- 報名加碼獎勵 -->
+                <div class="flex items-start gap-3 bg-white/90 p-3.5 rounded-xl border border-rose-200/80 shadow-2xs ring-2 ring-rose-400/20">
+                    <span class="text-xl shrink-0">💥</span>
+                    <div class="leading-relaxed">
+                        <span class="font-bold text-slate-800">好友完成報名：</span><br class="sm:hidden">
+                        推薦人加碼 <span class="text-rose-600 font-extrabold text-base">+6 堂</span>（累積最高領 <span class="text-rose-600 font-extrabold">8 堂</span>）
+                        <span class="text-slate-300 mx-1">｜</span>
+                        好友獨享 <span class="text-amber-600 font-extrabold text-base">4 堂</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-[11px] text-slate-400 mt-4 text-center md:text-right font-medium">
+                💡 備註：不同家庭計算為一組，推薦越多累積堂數無上限！
+            </p>
+
+        </div>
+
+        <!-- 觸發行動按鈕 -->
         <a href="https://docs.google.com/forms/d/1Q9Yh_xKcmTl0jbUSSBw7AYIPpgR0MaieCz23dSqzC7w/edit?ts=69f9c1b4"
            target="_blank"
            rel="noopener noreferrer"
-           class="inline-flex items-center
-                  justify-center gap-3
-                  mt-5
-                  bg-indigo-500
-                  hover:bg-indigo-600
-                  text-white
-                  px-7 py-3.5
-                  rounded-full
-                  font-extrabold
-                  shadow-lg
-                  bouncy transition">
-
-            💗 推薦好友
-            <span>→</span>
-
+           class="inline-flex items-center justify-center gap-2 mt-6 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white px-9 py-4 rounded-full font-extrabold text-base md:text-lg shadow-lg hover:shadow-rose-200/80 bouncy transition">
+            🔥 立即揪友領課
+            <span class="ml-1">➔</span>
         </a>
 
     </section>
