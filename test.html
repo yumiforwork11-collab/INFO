@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Yumi老師的英文秘密基地</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;800&display=swap"
+          rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Fredoka', 'Noto Sans TC', sans-serif;
+            background:
+                radial-gradient(circle at 10% 10%, #fff0f5 0, transparent 28%),
+                radial-gradient(circle at 90% 20%, #f3e8ff 0, transparent 30%),
+                #fffaf7;
+            color: #334155;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .bouncy:active {
+            transform: scale(0.95);
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        .float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .soft-shadow {
+            box-shadow: 0 15px 40px rgba(139, 92, 246, 0.10);
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="sticky top-0 z-50 px-4 pt-3">
+    <div class="max-w-5xl mx-auto">
+
+        <nav class="bg-white/90 backdrop-blur-md rounded-full shadow-sm
+                    px-4 py-3 flex items-center justify-between">
+
+            <a href="#top"
+               class="flex items-center gap-2 font-bold text-rose-500">
+
+                <span class="text-2xl">👩🏻‍🏫</span>
+
+                <span class="text-base md:text-lg">
+                    Teacher Yumi
+                </span>
+            </a>
+
+            <div class="flex items-center gap-2">
+
+                <a href="#about"
+                   class="hidden sm:block px-4 py-2 rounded-full
+                          text-sm font-bold text-slate-600
+                          hover:bg-pink-50">
+                    關於 Yumi
+                </a>
+
+                <a href="https://app.yumi-hub.cc.cd/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="bg-purple-500 hover:bg-purple-600
+                          text-white px-4 py-2 rounded-full
+                          text-sm font-bold shadow-md bouncy transition">
+                    🚀 秘密基地
+                </a>
+
+            </div>
+
+        </nav>
+
+    </div>
+</header>
+
+
+<main id="top" class="max-w-5xl mx-auto px-4 pt-5 pb-12">
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="relative overflow-hidden rounded-[2rem]
+                    bg-gradient-to-br from-rose-400 via-pink-400 to-purple-500
+                    text-white p-7 md:p-12 soft-shadow">
+
+        <!-- Decorative -->
+        <div class="absolute -right-16 -top-16
+                    w-48 h-48 rounded-full bg-white/10"></div>
+
+        <div class="absolute -left-10 -bottom-20
+                    w-40 h-40 rounded-full bg-yellow-300/10"></div>
+
+
+        <div class="relative z-10 grid md:grid-cols-[1fr_260px]
+                    items-center gap-8">
+
+            <!-- Text -->
+
+            <div>
+
+                <div class="inline-flex items-center gap-2
+                            bg-white/20 rounded-full px-4 py-2
+                            text-xs font-bold mb-4">
+
+                    ✨ Children's English Learning
+                </div>
+
+                <h1 class="text-3xl md:text-5xl
+                           font-extrabold leading-tight">
+
+                    Yumi老師的
+                    <br>
+
+                    <span class="text-yellow-200">
+                        英文秘密基地 🚀
+                    </span>
+
+                </h1>
+
+                <p class="mt-4 text-pink-50
+                          text-sm md:text-base
+                          leading-relaxed max-w-xl">
+
+                    陪孩子從「不敢說」，
+                    到「願意開口說英文」。
+
+                    <br>
+
+                    用互動、情境與遊戲，
+                    讓英文慢慢變成孩子熟悉的語言。
+
+                </p>
+
+
+                <div class="flex flex-wrap gap-3 mt-6">
+
+                    <a href="https://app.yumi-hub.cc.cd/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="bg-white text-purple-600
+                              font-extrabold px-6 py-3
+                              rounded-full shadow-lg
+                              bouncy transition">
+
+                        🚀 進入秘密基地
+                    </a>
+
+                    <a href="#about"
+                       class="border border-white/50
+                              bg-white/10
+                              px-6 py-3 rounded-full
+                              font-bold
+                              bouncy transition">
+
+                        了解 Yumi →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Character -->
+
+            <div class="flex justify-center">
+
+                <div class="float
+                            w-40 h-40 md:w-52 md:h-52
+                            rounded-full
+                            bg-white/20
+                            border-4 border-white/50
+                            flex items-center justify-center
+                            text-8xl md:text-9xl
+                            shadow-2xl">
+
+                    👩🏻‍🏫
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about"
+             class="mt-6 grid md:grid-cols-[1fr_1.4fr]
+                    gap-4">
+
+        <div class="bg-white rounded-[2rem]
+                    p-6 border border-pink-100
+                    soft-shadow">
+
+            <div class="text-4xl mb-3">
+                💗
+            </div>
+
+            <h2 class="text-xl font-extrabold text-rose-600">
+                About Yumi
+            </h2>
+
+            <p class="text-sm text-slate-500 mt-2">
+                兒童英文學習陪伴者
+            </p>
+
+        </div>
+
+
+        <div class="bg-white rounded-[2rem]
+                    p-6 border border-pink-100
+                    soft-shadow">
+
+            <p class="text-sm md:text-base
+                      leading-relaxed text-slate-600">
+
+                我會從孩子的
+                <strong class="text-rose-500">
+                    年齡、程度、個性與上課反應
+                </strong>
+                出發，找出比較適合孩子的學習方式。
+
+                <br><br>
+
+                比起一直追求「背了多少單字」，
+                我更希望孩子願意聽、願意模仿，
+                最後慢慢敢開口說英文。
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="mt-10">
+
+        <div class="text-center mb-5">
+
+            <span class="text-xs font-bold
+                         text-purple-500">
+                LEARNING STYLE
+            </span>
+
+            <h2 class="text-2xl md:text-3xl
+                       font-extrabold text-slate-800 mt-1">
+
+                孩子的英文，可以這樣學 ✨
+
+            </h2>
+
+        </div>
+
+
+        <div class="grid sm:grid-cols-3 gap-4">
+
+
+            <!-- Card 1 -->
+
+            <div class="bg-white rounded-[1.8rem]
+                        p-6 border border-blue-100
+                        soft-shadow">
+
+                <div class="text-4xl mb-4">
+                    🗣️
+                </div>
+
+                <h3 class="font-extrabold text-sky-700">
+                    勇敢開口
+                </h3>
+
+                <p class="text-xs text-slate-500
+                          leading-relaxed mt-2">
+
+                    從簡單回應開始，
+                    讓孩子慢慢建立說英文的信心。
+
+                </p>
+
+            </div>
+
+
+            <!-- Card 2 -->
+
+            <div class="bg-white rounded-[1.8rem]
+                        p-6 border border-purple-100
+                        soft-shadow">
+
+                <div class="text-4xl mb-4">
+                    🎯
+                </div>
+
+                <h3 class="font-extrabold text-purple-700">
+                    適性引導
+                </h3>
+
+                <p class="text-xs text-slate-500
+                          leading-relaxed mt-2">
+
+                    依孩子的程度與個性，
+                    調整適合的學習節奏。
+
+                </p>
+
+            </div>
+
+
+            <!-- Card 3 -->
+
+            <div class="bg-white rounded-[1.8rem]
+                        p-6 border border-amber-100
+                        soft-shadow">
+
+                <div class="text-4xl mb-4">
+                    🎮
+                </div>
+
+                <h3 class="font-extrabold text-amber-600">
+                    課後繼續玩
+                </h3>
+
+                <p class="text-xs text-slate-500
+                          leading-relaxed mt-2">
+
+                    上完課還能到秘密基地，
+                    用遊戲複習今天學到的英文。
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= HUB ================= -->
+
+    <section class="mt-6">
+
+        <div class="relative overflow-hidden
+                    rounded-[2rem]
+                    bg-gradient-to-r
+                    from-purple-600 to-rose-500
+                    text-white p-7 md:p-9">
+
+            <div class="relative z-10
+                        flex flex-col md:flex-row
+                        items-center justify-between
+                        gap-6">
+
+                <div>
+
+                    <span class="text-xs font-bold
+                                 bg-white/20
+                                 px-3 py-1
+                                 rounded-full">
+
+                        ✨ YUMI ONLY
+                    </span>
+
+                    <h2 class="text-2xl md:text-3xl
+                               font-extrabold mt-3">
+
+                        上完課，繼續玩英文 🚀
+
+                    </h2>
+
+                    <p class="text-purple-100
+                              text-sm mt-2
+                              max-w-lg">
+
+                        單字、任務、趣味挑戰，
+                        在家也能輕鬆複習課堂內容。
+
+                    </p>
+
+                </div>
+
+
+                <a href="https://app.yumi-hub.cc.cd/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="shrink-0
+                          bg-white text-purple-600
+                          px-7 py-4 rounded-2xl
+                          font-extrabold
+                          shadow-xl
+                          bouncy transition">
+
+                    🚀 進入秘密基地
+                    <span class="ml-2">→</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FIT ================= -->
+
+    <section class="mt-10">
+
+        <div class="text-center mb-5">
+
+            <h2 class="text-2xl md:text-3xl
+                       font-extrabold text-slate-800">
+
+                哪些孩子適合？ 🌱
+
+            </h2>
+
+            <p class="text-xs text-slate-400 mt-2">
+                每個孩子的起點都不一樣
+            </p>
+
+        </div>
+
+
+        <div class="flex flex-wrap
+                    justify-center gap-3">
+
+            <div class="bg-emerald-50
+                        text-emerald-700
+                        px-5 py-3 rounded-full
+                        text-sm font-bold">
+
+                🐣 0 基礎啟蒙
+
+            </div>
+
+            <div class="bg-pink-50
+                        text-pink-700
+                        px-5 py-3 rounded-full
+                        text-sm font-bold">
+
+                🙈 害羞不敢開口
+
+            </div>
+
+            <div class="bg-blue-50
+                        text-blue-700
+                        px-5 py-3 rounded-full
+                        text-sm font-bold">
+
+                👂 聽得懂但不會說
+
+            </div>
+
+            <div class="bg-purple-50
+                        text-purple-700
+                        px-5 py-3 rounded-full
+                        text-sm font-bold">
+
+                🚀 已有英文基礎
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="mt-10
+                    bg-white
+                    rounded-[2rem]
+                    border border-indigo-100
+                    p-7 md:p-9
+                    text-center
+                    soft-shadow">
+
+        <div class="text-4xl">
+            💌
+        </div>
+
+        <h2 class="text-2xl
+                   font-extrabold
+                   text-indigo-800 mt-2">
+
+            想讓身邊的孩子認識 Yumi？
+
+        </h2>
+
+        <p class="text-sm text-slate-500
+                  mt-2 max-w-md mx-auto
+                  leading-relaxed">
+
+            如果身邊也有正在找英文學習方式的朋友，
+            歡迎把 Yumi 老師分享給他們 😊
+
+        </p>
+
+
+        <a href="https://docs.google.com/forms/d/1Q9Yh_xKcmTl0jbUSSBw7AYIPpgR0MaieCz23dSqzC7w/edit?ts=69f9c1b4"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center
+                  justify-center gap-3
+                  mt-5
+                  bg-indigo-500
+                  hover:bg-indigo-600
+                  text-white
+                  px-7 py-3.5
+                  rounded-full
+                  font-extrabold
+                  shadow-lg
+                  bouncy transition">
+
+            💗 推薦好友
+            <span>→</span>
+
+        </a>
+
+    </section>
+
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="text-center pb-8 px-4">
+
+    <div class="text-2xl mb-2">
+        👩🏻‍🏫 🚀 ✨
+    </div>
+
+    <p class="text-xs text-slate-400">
+        Teacher Yumi's English Studio
+    </p>
+
+    <p class="text-[11px] text-slate-300 mt-1">
+        Learn • Play • Speak with Confidence
+    </p>
+
+</footer>
+
+
+</body>
+</html>
+
